@@ -26,6 +26,12 @@ export function reducer(state = initialState, action) {
                 error: action.payload,
                 isLoading: false
             }
+        // case ADD_SMURF:
+        //     return {
+        //         ...state,
+        //         smurf: [...state, action.payload],
+        //         isLoading: false
+        //     }
         default:
             return state;
     }
